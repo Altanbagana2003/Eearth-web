@@ -1,0 +1,111 @@
+body {
+    background-image: url(space.png);
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+
+#logo-size {
+    padding: 0px 0px 0px 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li::after {
+    content: ' ';
+    width: 10px;
+    height: 2px;
+    background: #00F0FF;
+    margin: auto;
+    transition: .5s;
+    display: block;
+}
+
+.nav-bar ul li:hover::after {
+    width: 100%;
+}
+
+ul, li {
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold; 
+    text-align: center;
+    opacity: 90%;
+}
+
+#just-one {
+    margin-top: -8px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 20px;
+    padding: 8px 30px 8px 30px;
+    color: black;
+    box-shadow: 0px 1px 5px 0px white;
+    opacity: 100%;
+}
+
+.line {
+    background: white;
+    width: 94%;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+#planet-text {
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 90%;
+}
+#earth-text {
+    margin-top: -10px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 100%;
+}
+
+.short-line {
+    margin-top: -60px;
+    margin-left: 580px;
+    width: 100px;
+    height: 4px;
+    background: #00F0FF;
+}
+
+#many {
+    font-size: 16px;
+    opacity: 70%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    text-decoration: none;
+    padding: 18px 30px;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 3px 3px 0px #BCFBFF;
+}
